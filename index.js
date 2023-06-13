@@ -4,7 +4,8 @@
 
 import {AppRegistry} from 'react-native';
 //import App from './App';
-import UserInput from './src/screens/UserInput';
-import {name as appName} from './app.json';
 
-AppRegistry.registerComponent(appName, () => UserInput);
+import {name as appName} from './app.json';
+import InputText from './src/components/InputText';
+
+AppRegistry.registerComponent(appName, () => InputText);
