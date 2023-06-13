@@ -14,6 +14,8 @@ const ListViewsComponent = () => {
     </View>
   );
 
+  const keyExtractor = (item, index) => index.toString();
+
   return (
     <View style={styles.container}>
       <FlatList
@@ -29,6 +31,7 @@ const ListViewsComponent = () => {
           {key: 'LAMP'},
         ]}
         renderItem={renderItem}
+        keyExtractor={keyExtractor}
       />
     </View>
   );
