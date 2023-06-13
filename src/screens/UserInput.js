@@ -50,6 +50,7 @@ const UserInput = () => {
       <TextInput
         style={styles.input}
         placeholder="Type here..."
+        multiline={true}
         onChangeText={newText => setText(newText)}
         value={text}
       />
