@@ -6,6 +6,6 @@ import {AppRegistry} from 'react-native';
 //import App from './App';
 
 import {name as appName} from './app.json';
-import InputText from './src/components/InputText';
+import ScrollViewComponents from './src/components/ScrollViewComponent';
 
-AppRegistry.registerComponent(appName, () => InputText);
+AppRegistry.registerComponent(appName, () => ScrollViewComponents);
