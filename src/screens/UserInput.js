@@ -45,7 +45,7 @@ const UserInput = () => {
     <KeyboardAvoidingView
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
-      <Text style={styles.title}>User Input</Text>
+      <Text style={styles.title}>String Utility</Text>
 
       <TextInput
         style={styles.input}
