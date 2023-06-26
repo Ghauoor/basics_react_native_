@@ -1,8 +1,8 @@
 import React from 'react';
-import ListViewsComponent from './src/components/ListViewsComponent';
+import GetMovies from './src/api/GetMovies';
 
 const App = () => {
-  return <ListViewsComponent />;
+  return <GetMovies />;
 };
 
 export default App;
