@@ -1,8 +1,19 @@
 import React from 'react';
-import GetMovies from './src/api/GetMovies';
+import {View, StyleSheet} from 'react-native';
+import {MyReactNativeForm} from './src/forms/MyReactNativeform';
 
-const App = () => {
-  return <GetMovies />;
-};
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <MyReactNativeForm />
+    </View>
+  );
+}
 
-export default App;
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
